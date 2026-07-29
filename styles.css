@@ -17,11 +17,12 @@ nav {
 
 header {
   background-color: #eadcff;
-  height: calc(100vh-70px);
+  height: calc(100vh -70 px);
   padding: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .subheader {
@@ -69,4 +70,13 @@ button {
 
 img {
     overflow-clip-margin: content-box;
-    overflow: clip;
+    overflow: clip; 
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
